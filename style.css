@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    place-items: center;
+    display: grid;
+    margin: 0;
+    height: 100vh;
+    background-image: url("assest/image.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+  box-shadow: 2px 14px 19px 3px rgb(12, 12, 12);
+   padding: 40px;
+   text-align: center;
+   border: 2px solid rgb(51, 1, 58);
+}
+.sheet{
+    color: rgb(77, 4, 58);
+    text-decoration-line: underline;
+
+}
+.box label{
+    font-weight: bold;
+    margin-top: 5px;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    text-align: left;
+}
+
+/* input field start */
+#eng, #comp, #phy, #math{
+    width: 90px;
+    padding: 4px;
+    border-radius: 6px;
+    border: none;
+    text-align: center;
+}
+#student{
+    padding: 4px;
+    border-radius: 6px;
+    border: none;
+    text-align: center;
+}
+#comp{
+    margin-left: 10px;
+}
+#math{
+    margin-left: 10px;
+}
+
+/* button start */
+#gen{
+    background-color: rgb(56, 3, 58);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 9px;
+}
+#gen:hover{
+    background-color: rgb(110, 5, 136);
+    color: rgb(248, 246, 247);
+    font-weight: bold;
+}
+
+/* display the result */
+#result{
+    color: rgb(242, 235, 243);
+    font-weight: bold;
+    margin-top: 12px;
+   line-height: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
